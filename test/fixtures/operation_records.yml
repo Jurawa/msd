@@ -1,0 +1,30 @@
+# == Schema Information
+#
+# Table name: operation_records
+#
+#  id                  :integer          not null, primary key
+#  patient_id          :integer
+#  primary_surgeon_id  :integer
+#  anesthesiologist_id :integer
+#  date                :date
+#  case_type           :string
+#  reoperation         :boolean
+#  procedures          :text
+#  pre_op_diagnosis    :text
+#  post_op_diagnosis   :text
+#  duration            :time
+#  created_at          :datetime
+#  updated_at          :datetime
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: {}
+# column: value
+#
+two: {}
+#  column: value
